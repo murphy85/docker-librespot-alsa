@@ -1,5 +1,3 @@
-[![](https://images.microbadger.com/badges/image/kevineye/librespot.svg)](https://microbadger.com/images/kevineye/librespot "Get your own image badge on microbadger.com")
-
 # docker-librespot-alsa
 This container runs a headless [Spotify](https://www.spotify.com/) player that can be remote-controlled by any Spotify app. Audio is output via [alsa](http://www.alsa-project.org/) to /dev/snd of host.
 
