@@ -19,4 +19,4 @@ ENV SPOTIFY_DEVICE hw:0,0
 ENV SPOTIFY_BITRATE 160
 ENV SPOTIFY_INITIAL_VOLUME 75
 
-CMD librespot -n "$SPOTIFY_NAME" -u "$SPOTIFY_USER" -p "$SPOTIFY_PASSWORD" --device "$SPOTIFY_DEVICE" -b "$SPOTIFY_BITRATE" --initial-volume "$SPOTIFY_INITIAL_VOLUME" --backend alsa --enable-volume-normalisation -c /tmp
+CMD librespot -n "$SPOTIFY_NAME" -u "$SPOTIFY_USER" -p "$SPOTIFY_PASSWORD" --device "$SPOTIFY_DEVICE" -b "$SPOTIFY_BITRATE" --initial-volume "$SPOTIFY_INITIAL_VOLUME" --linear-volume --backend alsa --enable-volume-normalisation -c /tmp
